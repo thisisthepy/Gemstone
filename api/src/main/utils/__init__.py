@@ -12,6 +12,7 @@ from . import calendar
 from . import currency
 from . import calculator
 from . import web_search
+from . import cache
 #from . import embedding
 
 
@@ -100,7 +101,8 @@ class FunctionCallResult(list):
         self,
         history_list: list,
         tag: tuple[str, str] = ("<tool_call>", "</tool_call>"),
-        print_output: bool = False
+        print_output: bool = False,
+        tool_call_caches: dict[str, dict] = None
     ) -> Union[str, False]:
         # Check if there are any pending tool calls
         with self.__queue_mutex:
@@ -117,12 +119,18 @@ class FunctionCallResult(list):
 
                 # Dump client-side tool call history
                 state = ""
+                caches : dict[str, str] = {}
                 if self.__message_queue:
                     state = "\n" + "\n".join(self.__message_queue)
                 for data in self[1:]:
                     if 'tool_call_id' in data:
+                        caches[data['tool_call_id']] = data['content']
                         data['content'] = f"<cached_result:{data['tool_call_id']}>"
-                result = state + "\n" + tag[0] + "\n" + dumps(dict(history=self, ensure_ascii=False)) + "\n" + tag[1]
+
+                if tool_call_caches is not None and caches:
+                    tool_call_caches.update(caches)
+
+                result = state + "\n" + tag[0] + "\n" + dumps(dict(history=self), ensure_ascii=False) + "\n" + tag[1]
 
                 # Clear the job list and message queue
                 self.job_list = []
@@ -131,7 +139,7 @@ class FunctionCallResult(list):
                 self.__message_queue = []
                 return result
 
-    def stage(self, calling: str, tag: tuple[str, str] = ("<tool_call>", "</tool_call>")):
+    def stage(self, calling: str, tag: tuple[str, str] = ("<tool_call>", "</tool_call>"), tool_call_caches: dict[str, str] = None):
         with self.__queue_mutex:
             job_id = datetime.now().strftime("call_%Y%m%d%H%M%S")
             try:
@@ -148,20 +156,26 @@ class FunctionCallResult(list):
                 name=name, arguments=deepcopy(arguments)
             ))), ensure_ascii=False) + "\n" + tag[1])
 
-            self.__thread_pool.submit(self.do, job_id, name, arguments, tag)
+            self.__thread_pool.submit(self.do, job_id, name, arguments, tag, tool_call_caches)
 
     def do(
         self,
         job_id: str,
         name: str,
         arguments: dict,
-        tag: tuple[str, str] = ("<tool_call>", "</tool_call>")
+        tag: tuple[str, str] = ("<tool_call>", "</tool_call>"),
+        tool_call_caches: dict[str, str] = None
     ):
         # Execute the function
         try:
             if name not in self.implementations:
                 raise ValueError(f"Function '{name}' is not registered.")
-            result = self.implementations[name](**arguments)
+
+            if name in ["get_cache_data"]:
+                result = self.implementations[name](**arguments, tool_call_caches=tool_call_caches)
+            else:
+                result = self.implementations[name](**arguments)
+
         except Exception as e:
             result = str(e)
 
@@ -375,6 +389,20 @@ FunctionCalling.DEFAULT = FunctionCalling(
                 },
                 "required": ["url"]
             }
+        ),
+        FunctionSchema(
+            name="get_cache_data",
+            description="Get a specific conversation cache by name",
+            parameters={
+                "type": "object",
+                "properties": {
+                    "tool_call_cache_id": {
+                        "type": "string",
+                        "description": "Name of the cache to retrieve"
+                    }
+                },
+                "required": ["tool_call_cache_id"]
+            }
         )
     ],
 
@@ -387,6 +415,7 @@ FunctionCalling.DEFAULT = FunctionCalling(
         calculate=calculator.calculate,
         search_web=web_search.search_web,
         search_website=web_search.search_website,
-        fetch_webpage=web_search.fetch_webpage
+        fetch_webpage=web_search.fetch_webpage,
+        get_cache_data=cache.get_cache_data
     )
 )

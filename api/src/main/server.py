@@ -94,7 +94,11 @@ async def chat(request: Request, user_prompt: str, history: Optional[List[Messag
         if not session_id:
             raise HTTPException(status_code=400, detail="Session ID is required.")
 
-        model = Session(session_id=session_id).model
+        session = Session(session_id=session_id)
+
+        model = session.model
+        tool_call_caches = session.tool_call_caches
+
     except ValueError:
         traceback.print_exc()
         raise HTTPException(status_code=404, detail="The session is not found.")
@@ -103,7 +107,7 @@ async def chat(request: Request, user_prompt: str, history: Optional[List[Messag
     if history:
         chat_history.extend([h.model_dump() for h in history])
 
-    response = model.chat(chat_history, user_prompt, stream=False, print_output=True)
+    response = model.chat(chat_history, user_prompt, tool_call_caches=tool_call_caches, stream=False, print_output=True)
     del model
     return response
 
@@ -115,7 +119,10 @@ async def chat_with_streaming(websocket: WebSocket):
 
     try:
         session_id = json.loads(await websocket.receive_text()).get("session_id")
-        model = Session(session_id=session_id).model
+        session = Session(session_id=session_id)
+        model = session.model
+        tool_call_caches = session.tool_call_caches
+
     except Exception:
         traceback.print_exc()
         await websocket.close(code=1008, reason="Invalid session ID or model not found.")
@@ -125,7 +132,7 @@ async def chat_with_streaming(websocket: WebSocket):
     chat_history.extend(json.loads(await websocket.receive_text()))
     user_prompt = await websocket.receive_text()
 
-    for token in model.chat(chat_history, user_prompt, print_output=True):
+    for token in model.chat(chat_history, user_prompt, tool_call_caches=tool_call_caches, print_output=True):
         await websocket.send_text(token)
         await asyncio.sleep(0.0001)  # 0.1ms delay between tokens
 

@@ -37,6 +37,16 @@ RESPONSE GUIDELINES:
 - When interpreting relative time expressions, always use calendar week boundaries (Monday-Sunday), not rolling periods from today
 - Always prioritize accuracy over speed
 
+ Tool Call Rules:
+1. Before invoking a tool, make sure you have the same tool_call (same tool_name and similar parameters)
+It has already been executed.
+2. If such a previous call exists, the call is associated with 'cache_id'.
+In this case, you must call first:
+get_cache_data(cache_id=that_id)
+3. If 'get_cache_data' returns cached results, use → and do not invoke the original tool again; however, if the result is not related to the user query, call the original tool
+4. If there is no matching cache_id or get_cache indicates no result, → call the original tool only then.
+5. Never call the tool directly without first checking if the tool has a cache_ID.
+
 Remember: Your role is to be a reliable, knowledgeable professional assistant who thinks carefully before responding and actively seeks current information when needed."""
 print("INFO:     Use default system prompt -", system_prompt)
 
@@ -88,6 +98,7 @@ class Qwen3Model(BaseModel):
         max_new_tokens: int = 0,
         repeat_penalty: float = 1.0,
         print_output: bool = False,
+        tool_call_caches: Optional[dict[str, str]] = None,
         **kwargs
     ) -> Union[Generator[str, None, None], str]:
         return super().chat(
@@ -108,5 +119,6 @@ class Qwen3Model(BaseModel):
             max_new_tokens=max_new_tokens,
             repeat_penalty=repeat_penalty,
             print_output=print_output,
+            tool_call_caches=tool_call_caches,
             **kwargs
         )

@@ -61,6 +61,7 @@ class Llama3Model(BaseModel):
         max_new_tokens: int = 0,
         repeat_penalty: float = 1.0,
         print_output: bool = False,
+        tool_call_caches: Optional[dict[str, str]] = None,
         **kwargs
     ) -> Union[Generator[str, None, None], str]:
         return super().chat(
@@ -77,5 +78,6 @@ class Llama3Model(BaseModel):
             max_new_tokens=max_new_tokens,
             repeat_penalty=repeat_penalty,
             print_output=print_output,
+            tool_call_caches=tool_call_caches,
             **kwargs
         )

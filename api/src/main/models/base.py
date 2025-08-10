@@ -7,6 +7,8 @@ from .config import ChatHistory
 from ..backend import BackendType
 from ..utils import FunctionCalling, FunctionCallResult
 
+import json
+
 
 @dataclass
 class Tags:
@@ -65,7 +67,8 @@ class BaseModel:
         chat_history: ChatHistory,
         tools: List[Dict[str, str]],
         stream: bool = True,
-        print_output: bool = False
+        print_output: bool = False,
+        tool_call_caches: Optional[dict[str, str]] = None
     ) -> Union[Generator[str, None, None], str]:
         """ Parse tool calling from the model's output """
         result_obj = FunctionCallResult()
@@ -78,12 +81,13 @@ class BaseModel:
                 if self.special_tags.TOOLCALL in word:  # Start of a tool call
                     started = True
                     if buffer:
-                        buffer = 0
+                        buffer = ""
                 elif self.special_tags.TOOLCALL_END in word:  # End of a tool call
                     if buffer:
                         result_obj.stage(
                             buffer,
-                            (self.special_tags.TOOLCALL, self.special_tags.TOOLCALL_END)
+                            (self.special_tags.TOOLCALL, self.special_tags.TOOLCALL_END),
+                            tool_call_caches
                         )
                         state = result_obj.state
                         if state is not None:
@@ -119,8 +123,10 @@ class BaseModel:
             final_result = result_obj.finalize(
                 chat_history,
                 (self.special_tags.TOOLCALL, self.special_tags.TOOLCALL_END),
-                print_output=print_output
+                print_output=print_output,
+                tool_call_caches=tool_call_caches
             )
+
             if queued > 0 and stat % 2 == 0:
                 print(f"\r{spinner[(stat//2) % len(spinner)]} Waiting for tool calls to finish...", end="", flush=True)
             if final_result is False:
@@ -150,6 +156,7 @@ class BaseModel:
         max_new_tokens: int = 1024,
         repeat_penalty: float = 1.0,
         print_output: bool = False,
+        tool_call_caches: Optional[dict[str, str]] = None,
         **kwargs
     ) -> Union[Generator[str, None, None], str]:
         """ Process a chat request
@@ -229,7 +236,8 @@ class BaseModel:
                 chat_history=chat_history,
                 tools=tools,
                 stream=stream,
-                print_output=print_output
+                print_output=print_output,
+                tool_call_caches= tool_call_caches
             )
 
             if stream:

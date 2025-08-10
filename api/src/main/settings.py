@@ -52,6 +52,7 @@ class Session:
             self.__sessions[self.session_id] = self
             print("INFO:     Current sessions:", list(self.__sessions))
             self._model = None
+            self.tool_call_caches = {}
 
     @property
     def model(self):
