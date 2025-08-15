@@ -34,7 +34,7 @@ import gemstone.app.generated.resources.*
 import gemstone.framework.ui.compose.theme.*
 import gemstone.framework.ui.viewmodel.*
 import org.jetbrains.compose.resources.stringResource
-
+import androidx.compose.foundation.text.selection.SelectionContainer
 
 @Composable
 fun ChatScreen(screenWidth: Dp) {
@@ -187,15 +187,17 @@ fun ChatScreen(screenWidth: Dp) {
             } else {
                 for ((index, message) in messageHistory.withIndex()) {
                     item {
-                        ConversationBox(
-                            userContent = message.user,
-                            assistantContent = message.assistant,
-                            thoughts = Triple(message.thoughts, message.thoughtElapsed.toInt(), message.isThinking),
-                            tools = message.tools.map {
-                                Triple(it.key.split("():")[0].trim(), it.value, it.key.split("():")[1].trim())
-                            },
-                            isStreaming = (index == messageHistory.size-1) && (uiState.currentMessage != null)
-                        )
+                        SelectionContainer {
+                            ConversationBox(
+                                userContent = message.user,
+                                assistantContent = message.assistant,
+                                thoughts = Triple(message.thoughts, message.thoughtElapsed.toInt(), message.isThinking),
+                                tools = message.tools.map {
+                                    Triple(it.key.split("():")[0].trim(), it.value, it.key.split("():")[1].trim())
+                                },
+                                isStreaming = (index == messageHistory.size - 1) && (uiState.currentMessage != null)
+                            )
+                        }
                     }
                 }
             }
