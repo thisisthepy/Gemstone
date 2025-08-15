@@ -6,6 +6,7 @@ import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.rememberLazyListState
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.text.BasicTextField
+import androidx.compose.foundation.text.selection.SelectionContainer
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Add
 import androidx.compose.material.icons.filled.MoreHoriz
@@ -187,15 +188,17 @@ fun ChatScreen(screenWidth: Dp) {
             } else {
                 for ((index, message) in messageHistory.withIndex()) {
                     item {
-                        ConversationBox(
-                            userContent = message.user,
-                            assistantContent = message.assistant,
-                            thoughts = Triple(message.thoughts, message.thoughtElapsed.toInt(), message.isThinking),
-                            tools = message.tools.map {
-                                Triple(it.key.split("():")[0].trim(), it.value, it.key.split("():")[1].trim())
-                            },
-                            isStreaming = (index == messageHistory.size-1) && (uiState.currentMessage != null)
-                        )
+                        SelectionContainer {
+                            ConversationBox(
+                                userContent = message.user,
+                                assistantContent = message.assistant,
+                                thoughts = Triple(message.thoughts, message.thoughtElapsed.toInt(), message.isThinking),
+                                tools = message.tools.map {
+                                    Triple(it.key.split("():")[0].trim(), it.value, it.key.split("():")[1].trim())
+                                },
+                                isStreaming = (index == messageHistory.size - 1) && (uiState.currentMessage != null)
+                            )
+                        }
                     }
                 }
             }
