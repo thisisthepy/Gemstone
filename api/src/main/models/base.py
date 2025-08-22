@@ -107,7 +107,7 @@ class BaseModel:
             outputs = outputs.replace(self.special_tags.TOOLCALL, "").replace(self.special_tags.TOOLCALL_END, "")
 
             for match in finditer(r"<tool_call>\s*(\{.*?\})\s*</tool_call>", original_outputs, DOTALL):
-                json_string = match.group(1)  # Extract the JSON string from the match
+                json_string = match.group(1)
                 outputs.replace(json_string, "")  # Remove the tool call from the output
                 result_obj.stage(
                     json_string,
