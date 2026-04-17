@@ -19,7 +19,7 @@ kotlin {
             jvmTarget.set(JvmTarget.JVM_11)
         }
     }
-    
+
     listOf(
         iosX64(),
         iosArm64(),
@@ -30,12 +30,14 @@ kotlin {
             isStatic = true
         }
     }
-    
+
     jvm("desktop")
-    
+
     @OptIn(ExperimentalWasmDsl::class)
     wasmJs {
-        moduleName = "gemstone"
+        compilerOptions {
+            moduleName = "gemstone"
+        }
         browser {
             val rootDirPath = project.rootDir.path
             val projectDirPath = project.projectDir.path
@@ -52,7 +54,7 @@ kotlin {
         }
         binaries.executable()
     }
-    
+
     sourceSets {
         val commonMain by getting
         val androidMain by getting
@@ -71,7 +73,7 @@ kotlin {
         wasmJsMain.dependencies {
             api(libs.ktor.client.js)
         }
-        
+
         androidMain.dependencies {
             api(compose.material3)
             api(compose.preview)
@@ -125,8 +127,8 @@ android {
         applicationId = "io.github.thisisthepy.gemstone"
         minSdk = libs.versions.android.minSdk.get().toInt()
         targetSdk = libs.versions.android.targetSdk.get().toInt()
-        versionCode = 1
-        versionName = "1.0"
+        versionCode = 2
+        versionName = "1.0.1"
     }
     packaging {
         resources {
@@ -156,7 +158,7 @@ compose.desktop {
         nativeDistributions {
             targetFormats(TargetFormat.Dmg, TargetFormat.Msi, TargetFormat.Deb)
             packageName = "Gemstone AI"
-            packageVersion = "1.0.0"
+            packageVersion = "1.0.1"
             macOS {
                 iconFile.set(project.file("src/desktopMain/resources/simple_white.icns"))
                 installationPath = "/Applications/StoneManager"
