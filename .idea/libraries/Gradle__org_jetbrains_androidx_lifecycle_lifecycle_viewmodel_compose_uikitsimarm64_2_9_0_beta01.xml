@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: org.jetbrains.androidx.lifecycle:lifecycle-viewmodel-compose-uikitsimarm64:2.9.0-beta01" type="kotlin.native" external-system-id="GRADLE">
+    <properties groupId="org.jetbrains.androidx.lifecycle" artifactId="lifecycle-viewmodel-compose-uikitsimarm64" version="2.9.0-beta01" baseVersion="2.9.0-beta01" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.androidx.lifecycle/lifecycle-viewmodel-compose-uikitsimarm64/2.9.0-beta01/b453ac927007a08ffa84ff1042350cb6d0385662/lifecycle-viewmodel-compose-uikitSimArm64Main-2.9.0-beta01.klib!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.androidx.lifecycle/lifecycle-viewmodel-compose-uikitsimarm64/2.9.0-beta01/a93d56d730a9ddcb5a1a56e8be57f65521d7730/lifecycle-viewmodel-compose-uikitsimarm64-2.9.0-beta01-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

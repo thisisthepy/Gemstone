@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: org.jetbrains.kotlinx:kotlinx-io-bytestring-iossimulatorarm64:0.5.4" type="kotlin.native" external-system-id="GRADLE">
+    <properties groupId="org.jetbrains.kotlinx" artifactId="kotlinx-io-bytestring-iossimulatorarm64" version="0.5.4" baseVersion="0.5.4" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-io-bytestring-iossimulatorarm64/0.5.4/419fedb3f7f32860630d3e78b5c927de48661ccd/kotlinx-io-bytestring.klib!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-io-bytestring-iossimulatorarm64/0.5.4/e4f67ceec81379503c43aa2dd225a14cdd5fbf68/kotlinx-io-bytestring-iossimulatorarm64-0.5.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: org.jetbrains.androidx.navigation:navigation-common-desktop:2.9.0-beta01" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="org.jetbrains.androidx.navigation" artifactId="navigation-common-desktop" version="2.9.0-beta01" baseVersion="2.9.0-beta01" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.androidx.navigation/navigation-common-desktop/2.9.0-beta01/c61514d9318b74c842e25b0912ac8b08e994fd8d/navigation-common-desktop-2.9.0-beta01.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.androidx.navigation/navigation-common-desktop/2.9.0-beta01/e6c6f17cce164b5aa2e96bea7166f35a71198d0c/navigation-common-desktop-2.9.0-beta01-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

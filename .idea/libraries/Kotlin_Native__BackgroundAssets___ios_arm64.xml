@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Kotlin/Native: BackgroundAssets | ios_arm64" type="kotlin.native" external-system-id="GRADLE">
+    <properties groupId="org.jetbrains.kotlin.native" artifactId="BackgroundAssets" version="2.1.21" baseVersion="2.1.21" />
+    <CLASSES>
+      <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-windows-x86_64-2.1.21/klib/platform/ios_arm64/org.jetbrains.kotlin.native.platform.BackgroundAssets" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

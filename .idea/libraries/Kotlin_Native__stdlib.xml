@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Kotlin/Native: stdlib" type="kotlin.native" external-system-id="GRADLE">
+    <properties groupId="org.jetbrains.kotlin.native" artifactId="stdlib" version="2.1.21" baseVersion="2.1.21" />
+    <CLASSES>
+      <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-windows-x86_64-2.1.21/klib/common/stdlib" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.konan/kotlin-native-prebuilt-windows-x86_64-2.1.21/sources/kotlin-stdlib-native-sources.zip!/" />
+    </SOURCES>
+  </library>
+</component>

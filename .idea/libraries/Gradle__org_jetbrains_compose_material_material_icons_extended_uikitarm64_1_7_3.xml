@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: org.jetbrains.compose.material:material-icons-extended-uikitarm64:1.7.3" type="kotlin.native" external-system-id="GRADLE">
+    <properties groupId="org.jetbrains.compose.material" artifactId="material-icons-extended-uikitarm64" version="1.7.3" baseVersion="1.7.3" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.compose.material/material-icons-extended-uikitarm64/1.7.3/fcc2c14bbba857d6fc96a7c46ced0018abeb66e7/material-icons-extended.klib!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.compose.material/material-icons-extended-uikitarm64/1.7.3/b33a52967b12d677f9861e7aa9df0cfb50982314/material-icons-extended-uikitarm64-1.7.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

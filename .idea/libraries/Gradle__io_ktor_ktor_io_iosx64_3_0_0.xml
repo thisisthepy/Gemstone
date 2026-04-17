@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: io.ktor:ktor-io-iosx64:3.0.0" type="kotlin.native" external-system-id="GRADLE">
+    <properties groupId="io.ktor" artifactId="ktor-io-iosx64" version="3.0.0" baseVersion="3.0.0" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-io-iosx64/3.0.0/953086257d914f5a3f497108d48799f147d3417f/ktor-io.klib!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-io-iosx64/3.0.0/9679b07b26862cb85818de97090b07a9eddc79d9/ktor-io-cinterop-mutex.klib!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-io-iosx64/3.0.0/7e1e33d9bac9431ec6f9fc551b61b3baa6a2f4c8/ktor-io-iosx64-3.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

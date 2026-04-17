@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: org.jetbrains.compose.foundation:foundation-wasm-js:1.8.1" type="kotlin.wasm.js" external-system-id="GRADLE">
+    <properties groupId="org.jetbrains.compose.foundation" artifactId="foundation-wasm-js" version="1.8.1" baseVersion="1.8.1" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.compose.foundation/foundation-wasm-js/1.8.1/441b28dffb923cc578d48f85487ed6563462f1a4/foundation-wasm-js-1.8.1.klib!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.compose.foundation/foundation-wasm-js/1.8.1/8627f6612b050a219e997a7b6f10d6469b7ac3c9/foundation-wasm-js-1.8.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

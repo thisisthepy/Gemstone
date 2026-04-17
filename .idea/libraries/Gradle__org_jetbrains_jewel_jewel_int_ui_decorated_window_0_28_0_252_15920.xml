@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: org.jetbrains.jewel:jewel-int-ui-decorated-window:0.28.0-252.15920" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="org.jetbrains.jewel" artifactId="jewel-int-ui-decorated-window" version="0.28.0-252.15920" baseVersion="0.28.0-252.15920" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.jewel/jewel-int-ui-decorated-window/0.28.0-252.15920/b6a8b2f3daefe28589c76a61e3d67ccae099a4aa/jewel-int-ui-decorated-window-0.28.0-252.15920.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.jewel/jewel-int-ui-decorated-window/0.28.0-252.15920/a851f432db4f72653445877913097670a8271a4a/jewel-int-ui-decorated-window-0.28.0-252.15920-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

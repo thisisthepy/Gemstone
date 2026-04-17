@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: org.jetbrains.androidx.navigation:navigation-compose-uikitsimarm64:2.9.0-beta01" type="kotlin.native" external-system-id="GRADLE">
+    <properties groupId="org.jetbrains.androidx.navigation" artifactId="navigation-compose-uikitsimarm64" version="2.9.0-beta01" baseVersion="2.9.0-beta01" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.androidx.navigation/navigation-compose-uikitsimarm64/2.9.0-beta01/12e2d4315bd57347d9479313a015a8266bedd7/navigation-compose-uikitSimArm64Main-2.9.0-beta01.klib!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.androidx.navigation/navigation-compose-uikitsimarm64/2.9.0-beta01/530e78e42ab6620b02438616b969b567eeeb98bd/navigation-compose-uikitsimarm64-2.9.0-beta01-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

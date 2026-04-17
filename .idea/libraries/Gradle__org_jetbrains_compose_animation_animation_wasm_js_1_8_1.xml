@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: org.jetbrains.compose.animation:animation-wasm-js:1.8.1" type="kotlin.wasm.js" external-system-id="GRADLE">
+    <properties groupId="org.jetbrains.compose.animation" artifactId="animation-wasm-js" version="1.8.1" baseVersion="1.8.1" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.compose.animation/animation-wasm-js/1.8.1/bf8d9ebed01c639e3156648cc567163c987abb05/animation-wasm-js-1.8.1.klib!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.compose.animation/animation-wasm-js/1.8.1/885a1a43df6802ede4a07dfb7a8aa01796c73fd2/animation-wasm-js-1.8.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

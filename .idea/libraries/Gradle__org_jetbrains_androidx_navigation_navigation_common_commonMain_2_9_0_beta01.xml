@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: org.jetbrains.androidx.navigation:navigation-common:commonMain:2.9.0-beta01" type="kotlin.common" external-system-id="GRADLE">
+    <properties groupId="org.jetbrains.androidx.navigation" artifactId="navigation-common" version="2.9.0-beta01" baseVersion="2.9.0-beta01" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/.kotlin/metadata/kotlinTransformedMetadataLibraries/org.jetbrains.androidx.navigation-navigation-common-2.9.0-beta01-commonMain-PGPAwQ.klib!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.androidx.navigation/navigation-common/2.9.0-beta01/26ed73efba314b7ae4298ef296a6a6be49e9f28b/navigation-common-2.9.0-beta01-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

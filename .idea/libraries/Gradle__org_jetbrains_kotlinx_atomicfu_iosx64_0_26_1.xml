@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: org.jetbrains.kotlinx:atomicfu-iosx64:0.26.1" type="kotlin.native" external-system-id="GRADLE">
+    <properties groupId="org.jetbrains.kotlinx" artifactId="atomicfu-iosx64" version="0.26.1" baseVersion="0.26.1" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/atomicfu-iosx64/0.26.1/66fe2bef57d1bba538d91c47b2c08022cf6c3428/atomicfu.klib!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/atomicfu-iosx64/0.26.1/8b11d5f971ed31b32816ec25bf2af3ccbb45679f/atomicfu-cinterop-interop.klib!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/atomicfu-iosx64/0.26.1/8781f11fd8f4d7b2e37a6816798648d478c5403/atomicfu-iosx64-0.26.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

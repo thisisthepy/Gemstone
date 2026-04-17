@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.savedstate:savedstate-iossimulatorarm64:1.3.0" type="kotlin.native" external-system-id="GRADLE">
+    <properties groupId="androidx.savedstate" artifactId="savedstate-iossimulatorarm64" version="1.3.0" baseVersion="1.3.0" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.savedstate/savedstate-iossimulatorarm64/1.3.0/a640972a511b96fa7ff78edb73cfac72336a7b5d/savedstate-iosSimulatorArm64Main-1.3.0.klib!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.savedstate/savedstate-iossimulatorarm64/1.3.0/7770a72f42431cd6a14d2bded87e3a56df336ad3/savedstate-iossimulatorarm64-1.3.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

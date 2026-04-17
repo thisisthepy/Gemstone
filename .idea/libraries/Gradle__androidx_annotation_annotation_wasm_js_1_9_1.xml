@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.annotation:annotation-wasm-js:1.9.1" type="kotlin.wasm.js" external-system-id="GRADLE">
+    <properties groupId="androidx.annotation" artifactId="annotation-wasm-js" version="1.9.1" baseVersion="1.9.1" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.annotation/annotation-wasm-js/1.9.1/c084814826e28c73c203da1a2f36f71662804bd3/annotation-wasm-js-1.9.1.klib!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.annotation/annotation-wasm-js/1.9.1/c7df6906c51cc706b45eed1fb71dcf008d9cc246/annotation-wasm-js-1.9.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

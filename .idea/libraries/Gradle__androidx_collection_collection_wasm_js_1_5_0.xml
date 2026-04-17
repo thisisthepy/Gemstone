@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.collection:collection-wasm-js:1.5.0" type="kotlin.wasm.js" external-system-id="GRADLE">
+    <properties groupId="androidx.collection" artifactId="collection-wasm-js" version="1.5.0" baseVersion="1.5.0" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.collection/collection-wasm-js/1.5.0/18144cbf664890f9b0dd371eb44e5bdadbf000a7/collection-wasm-js-1.5.0.klib!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.collection/collection-wasm-js/1.5.0/fc714cfbe997d5454bb69aaffe64cd31a9e8ec0d/collection-wasm-js-1.5.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

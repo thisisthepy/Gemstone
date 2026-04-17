@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.annotation:annotation-iosarm64:1.9.1" type="kotlin.native" external-system-id="GRADLE">
+    <properties groupId="androidx.annotation" artifactId="annotation-iosarm64" version="1.9.1" baseVersion="1.9.1" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.annotation/annotation-iosarm64/1.9.1/4e721c0824b13bf8de6c38724ebbf1cdd3599786/annotation.klib!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.annotation/annotation-iosarm64/1.9.1/c7df6906c51cc706b45eed1fb71dcf008d9cc246/annotation-iosarm64-1.9.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

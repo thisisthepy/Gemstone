@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: org.jetbrains.compose.material:material-icons-extended-wasm-js:1.7.3" type="kotlin.wasm.js" external-system-id="GRADLE">
+    <properties groupId="org.jetbrains.compose.material" artifactId="material-icons-extended-wasm-js" version="1.7.3" baseVersion="1.7.3" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.compose.material/material-icons-extended-wasm-js/1.7.3/d01db77e4295c019018ccc83b56933703c040dd9/material-icons-extended-wasm-js-1.7.3.klib!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.compose.material/material-icons-extended-wasm-js/1.7.3/73231e910f3455995ea4fb54f33a02aa8b9bafb0/material-icons-extended-wasm-js-1.7.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

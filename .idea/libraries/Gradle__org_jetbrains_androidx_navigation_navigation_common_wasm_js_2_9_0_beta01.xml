@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: org.jetbrains.androidx.navigation:navigation-common-wasm-js:2.9.0-beta01" type="kotlin.wasm.js" external-system-id="GRADLE">
+    <properties groupId="org.jetbrains.androidx.navigation" artifactId="navigation-common-wasm-js" version="2.9.0-beta01" baseVersion="2.9.0-beta01" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.androidx.navigation/navigation-common-wasm-js/2.9.0-beta01/2f5f2e0ce3a08ded85706beecb483db708def1c6/navigation-common-wasm-js-2.9.0-beta01.klib!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.androidx.navigation/navigation-common-wasm-js/2.9.0-beta01/40bc219ab4eeb8a526d354b9dad8381a8157f699/navigation-common-wasm-js-2.9.0-beta01-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

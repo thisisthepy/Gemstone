@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: org.jetbrains.compose.runtime:runtime-wasm-js:1.8.1" type="kotlin.wasm.js" external-system-id="GRADLE">
+    <properties groupId="org.jetbrains.compose.runtime" artifactId="runtime-wasm-js" version="1.8.1" baseVersion="1.8.1" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.compose.runtime/runtime-wasm-js/1.8.1/8880903c91fb749167365a96accd8e6bfcb5d9b6/runtime-wasm-js-1.8.1.klib!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.compose.runtime/runtime-wasm-js/1.8.1/ff1ae004f9d358f52b61bb0138d5d1c48e2735e7/runtime-wasm-js-1.8.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

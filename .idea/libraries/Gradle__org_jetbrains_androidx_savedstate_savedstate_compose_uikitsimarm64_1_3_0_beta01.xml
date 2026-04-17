@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: org.jetbrains.androidx.savedstate:savedstate-compose-uikitsimarm64:1.3.0-beta01" type="kotlin.native" external-system-id="GRADLE">
+    <properties groupId="org.jetbrains.androidx.savedstate" artifactId="savedstate-compose-uikitsimarm64" version="1.3.0-beta01" baseVersion="1.3.0-beta01" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.androidx.savedstate/savedstate-compose-uikitsimarm64/1.3.0-beta01/90c49f5ea108933bf52f51c89fa3fbad9c024dca/savedstate-compose-uikitSimArm64Main-1.3.0-beta01.klib!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.androidx.savedstate/savedstate-compose-uikitsimarm64/1.3.0-beta01/6de83e5a8ac7d8567c5357aa33a035cb8db21912/savedstate-compose-uikitsimarm64-1.3.0-beta01-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

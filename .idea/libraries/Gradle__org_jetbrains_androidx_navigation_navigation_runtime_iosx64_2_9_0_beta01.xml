@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: org.jetbrains.androidx.navigation:navigation-runtime-iosx64:2.9.0-beta01" type="kotlin.native" external-system-id="GRADLE">
+    <properties groupId="org.jetbrains.androidx.navigation" artifactId="navigation-runtime-iosx64" version="2.9.0-beta01" baseVersion="2.9.0-beta01" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.androidx.navigation/navigation-runtime-iosx64/2.9.0-beta01/e5bd7abde60c87dd19638d53f9ea700df618f01a/navigation-runtime-iosX64Main-2.9.0-beta01.klib!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.androidx.navigation/navigation-runtime-iosx64/2.9.0-beta01/cda28e251e04410b5dbf2f321638a745947bed46/navigation-runtime-iosx64-2.9.0-beta01-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

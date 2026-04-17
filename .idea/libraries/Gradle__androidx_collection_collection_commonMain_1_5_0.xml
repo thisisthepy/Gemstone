@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.collection:collection:commonMain:1.5.0" type="kotlin.common" external-system-id="GRADLE">
+    <properties groupId="androidx.collection" artifactId="collection" version="1.5.0" baseVersion="1.5.0" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/.kotlin/metadata/kotlinTransformedMetadataLibraries/androidx.collection-collection-1.5.0-commonMain-j7f1lg.klib!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.collection/collection/1.5.0/880b975599d3c271038de24a6d82beb5f10339e4/collection-1.5.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

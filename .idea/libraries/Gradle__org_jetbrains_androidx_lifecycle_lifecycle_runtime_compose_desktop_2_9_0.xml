@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: org.jetbrains.androidx.lifecycle:lifecycle-runtime-compose-desktop:2.9.0" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="org.jetbrains.androidx.lifecycle" artifactId="lifecycle-runtime-compose-desktop" version="2.9.0" baseVersion="2.9.0" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.androidx.lifecycle/lifecycle-runtime-compose-desktop/2.9.0/223c530ac6df84c0917e1b00a47edcb8bad31abe/lifecycle-runtime-compose-desktop-2.9.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.androidx.lifecycle/lifecycle-runtime-compose-desktop/2.9.0/f0bf0ff292bc539713feb2e646f4441c6ba9a45/lifecycle-runtime-compose-desktop-2.9.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

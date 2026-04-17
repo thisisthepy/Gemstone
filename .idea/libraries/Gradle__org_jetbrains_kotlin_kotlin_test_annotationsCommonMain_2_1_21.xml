@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: org.jetbrains.kotlin:kotlin-test:annotationsCommonMain:2.1.21" type="kotlin.common" external-system-id="GRADLE">
+    <properties groupId="org.jetbrains.kotlin" artifactId="kotlin-test" version="2.1.21" baseVersion="2.1.21" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/.kotlin/metadata/kotlinTransformedMetadataLibraries/org.jetbrains.kotlin-kotlin-test-2.1.21-annotationsCommonMain-A80Paw.klib!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-test/2.1.21/b78aebe27209f0422aa19c6e5f8b83dd32716b87/kotlin-test-2.1.21-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: io.ktor:ktor-client-js-wasm-js:3.0.0" type="kotlin.wasm.js" external-system-id="GRADLE">
+    <properties groupId="io.ktor" artifactId="ktor-client-js-wasm-js" version="3.0.0" baseVersion="3.0.0" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-client-js-wasm-js/3.0.0/39b70ce1b05bcef318de7d4d4cffe327fe0fc437/ktor-client-js-wasm-js-3.0.0.klib!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-client-js-wasm-js/3.0.0/724c025a3438131d3cb71d82752a939c4e3bf311/ktor-client-js-wasm-js-3.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

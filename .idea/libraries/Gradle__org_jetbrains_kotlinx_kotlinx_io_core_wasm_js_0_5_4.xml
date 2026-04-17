@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: org.jetbrains.kotlinx:kotlinx-io-core-wasm-js:0.5.4" type="kotlin.wasm.js" external-system-id="GRADLE">
+    <properties groupId="org.jetbrains.kotlinx" artifactId="kotlinx-io-core-wasm-js" version="0.5.4" baseVersion="0.5.4" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-io-core-wasm-js/0.5.4/254809d0180a91d7e997ffc5cc9f9c56645fdab7/kotlinx-io-core-wasm-js-0.5.4.klib!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-io-core-wasm-js/0.5.4/96d0b1cb242a4758d2e682a34bea731db1ba507a/kotlinx-io-core-wasm-js-0.5.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

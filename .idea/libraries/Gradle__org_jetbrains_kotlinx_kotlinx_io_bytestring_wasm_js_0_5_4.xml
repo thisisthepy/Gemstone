@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: org.jetbrains.kotlinx:kotlinx-io-bytestring-wasm-js:0.5.4" type="kotlin.wasm.js" external-system-id="GRADLE">
+    <properties groupId="org.jetbrains.kotlinx" artifactId="kotlinx-io-bytestring-wasm-js" version="0.5.4" baseVersion="0.5.4" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-io-bytestring-wasm-js/0.5.4/5129ac36dbafcb8259efd38947b4bee3947a42e3/kotlinx-io-bytestring-wasm-js-0.5.4.klib!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-io-bytestring-wasm-js/0.5.4/d04836e3aa8781795cb73955f88e4a987b945137/kotlinx-io-bytestring-wasm-js-0.5.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

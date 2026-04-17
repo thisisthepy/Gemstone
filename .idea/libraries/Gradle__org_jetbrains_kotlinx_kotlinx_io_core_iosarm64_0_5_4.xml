@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: org.jetbrains.kotlinx:kotlinx-io-core-iosarm64:0.5.4" type="kotlin.native" external-system-id="GRADLE">
+    <properties groupId="org.jetbrains.kotlinx" artifactId="kotlinx-io-core-iosarm64" version="0.5.4" baseVersion="0.5.4" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-io-core-iosarm64/0.5.4/7e7fe4e0de2bb474807ac27637feac1adf018be7/kotlinx-io-core.klib!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-io-core-iosarm64/0.5.4/4f688760be34642f51f510c96a4d7d48bbabce65/kotlinx-io-core-iosarm64-0.5.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

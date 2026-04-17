@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: org.jetbrains.compose.components:components-resources:commonMain:1.8.1" type="kotlin.common" external-system-id="GRADLE">
+    <properties groupId="org.jetbrains.compose.components" artifactId="components-resources" version="1.8.1" baseVersion="1.8.1" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/.kotlin/metadata/kotlinTransformedMetadataLibraries/org.jetbrains.compose.components-components-resources-1.8.1-commonMain-Wrum6g.klib!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.compose.components/components-resources/1.8.1/f4368fc138ebb03d5619b2efc15882ccd1d94aa4/components-resources-1.8.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

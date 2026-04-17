@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: org.jetbrains.compose.ui:ui-backhandler-uikitx64:1.8.1" type="kotlin.native" external-system-id="GRADLE">
+    <properties groupId="org.jetbrains.compose.ui" artifactId="ui-backhandler-uikitx64" version="1.8.1" baseVersion="1.8.1" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.compose.ui/ui-backhandler-uikitx64/1.8.1/2ecc1ce6691d9b5da5c2812da2518d17b61b4f62/ui-backhandler-uikitX64Main-1.8.1.klib!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.compose.ui/ui-backhandler-uikitx64/1.8.1/fed5182ff6d7c70534c6d94304b1e9dfef2f4d2/ui-backhandler-uikitx64-1.8.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

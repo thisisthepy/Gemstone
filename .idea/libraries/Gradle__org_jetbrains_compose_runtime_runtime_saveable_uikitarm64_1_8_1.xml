@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: org.jetbrains.compose.runtime:runtime-saveable-uikitarm64:1.8.1" type="kotlin.native" external-system-id="GRADLE">
+    <properties groupId="org.jetbrains.compose.runtime" artifactId="runtime-saveable-uikitarm64" version="1.8.1" baseVersion="1.8.1" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.compose.runtime/runtime-saveable-uikitarm64/1.8.1/aef1c369d657cea3feb7ff149144b9833f5a7692/runtime-saveable-uikitArm64Main-1.8.1.klib!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.compose.runtime/runtime-saveable-uikitarm64/1.8.1/f687818f0b8b0754424a40c9d559c1a505b1a0fe/runtime-saveable-uikitarm64-1.8.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: org.jetbrains.compose.material:material-icons-extended:commonMain:1.7.3" type="kotlin.common" external-system-id="GRADLE">
+    <properties groupId="org.jetbrains.compose.material" artifactId="material-icons-extended" version="1.7.3" baseVersion="1.7.3" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/.kotlin/metadata/kotlinTransformedMetadataLibraries/org.jetbrains.compose.material-material-icons-extended-1.7.3-commonMain-m2wuDA.klib!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.compose.material/material-icons-extended/1.7.3/73231e910f3455995ea4fb54f33a02aa8b9bafb0/material-icons-extended-1.7.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

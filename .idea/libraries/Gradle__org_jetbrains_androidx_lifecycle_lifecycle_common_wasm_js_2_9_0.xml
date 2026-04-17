@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: org.jetbrains.androidx.lifecycle:lifecycle-common-wasm-js:2.9.0" type="kotlin.wasm.js" external-system-id="GRADLE">
+    <properties groupId="org.jetbrains.androidx.lifecycle" artifactId="lifecycle-common-wasm-js" version="2.9.0" baseVersion="2.9.0" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.androidx.lifecycle/lifecycle-common-wasm-js/2.9.0/88254e79fc1be026d374b1e8f2fa3d9d581f6426/lifecycle-common-wasm-js-2.9.0.klib!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.androidx.lifecycle/lifecycle-common-wasm-js/2.9.0/244f60bc4d9ebd9413d027dd6f42bd59302d5cf0/lifecycle-common-wasm-js-2.9.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

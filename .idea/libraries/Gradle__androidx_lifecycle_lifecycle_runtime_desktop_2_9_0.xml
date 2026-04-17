@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.lifecycle:lifecycle-runtime-desktop:2.9.0" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="androidx.lifecycle" artifactId="lifecycle-runtime-desktop" version="2.9.0" baseVersion="2.9.0" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-runtime-desktop/2.9.0/c010649ff159d1ff67088df715dee3f05cacbf72/lifecycle-runtime-desktop-2.9.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-runtime-desktop/2.9.0/e3e28107b87f22d161c8c8a435e9b133923124ad/lifecycle-runtime-desktop-2.9.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

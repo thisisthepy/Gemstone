@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: org.jetbrains.compose.foundation:foundation-layout:commonMain:1.8.1" type="kotlin.common" external-system-id="GRADLE">
+    <properties groupId="org.jetbrains.compose.foundation" artifactId="foundation-layout" version="1.8.1" baseVersion="1.8.1" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/.kotlin/metadata/kotlinTransformedMetadataLibraries/org.jetbrains.compose.foundation-foundation-layout-1.8.1-commonMain-Urf8fw.klib!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.compose.foundation/foundation-layout/1.8.1/e484d4ffa765f9f6de754776136c5c9ea8111e54/foundation-layout-1.8.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
